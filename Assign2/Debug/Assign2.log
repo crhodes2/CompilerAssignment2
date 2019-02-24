@@ -1,4 +1,4 @@
-﻿Build started 2/23/2019 3:52:12 PM.
+﻿Build started 2/23/2019 4:16:14 PM.
      1>Project "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Assign2.vcxproj" on node 2 (Rebuild target(s)).
      1>Building with tools version "15.0".
        Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
@@ -22,10 +22,10 @@
      1>Target "SetTelemetryEnvironmentVariables" in file "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Assign2.vcxproj" (target "Rebuild" depends on it):
        Using "SetEnv" task from assembly "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={A80BE024-8A13-496C-ABC3-C209DD122AEF}
+         VSTEL_SolutionSessionID={66713EC6-EF78-4A73-B27F-24949ECBF52C}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=20273453
+         VSTEL_CurrentSolutionBuildID=21713125
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={1503B17A-0109-486E-BBC1-C5CDF44D53A6}
@@ -291,7 +291,7 @@
        Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.Core".
        Using "Bison" task from the task factory "XamlTaskFactory".
        Task "Bison"
-         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmpef3d32fe4ff441f590ce1c093ee13cef.cmd"
+         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp57780b8e113b4384a7b3a610d34ea711.cmd"
          
          start /B /WAIT /D "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\" win_bison.exe --output="TurtleYacc.tab.cpp" --defines="TurtleYacc.h"  "TurtleYacc.y"
          exit /b %errorlevel%
@@ -317,7 +317,7 @@
        Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.Core".
        Using "Flex" task from the task factory "XamlTaskFactory".
        Task "Flex"
-         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp09a9c8d963d2457a9f1de900552911a3.cmd"
+         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp410923e61fcb4349bb7f0d4606b71969.cmd"
          
          start /B /WAIT /D "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\" win_flex.exe --outfile="TurtleLex.flex.cpp" --wincompat  "TurtleLex.l"
          exit /b %errorlevel%
@@ -408,10 +408,10 @@
        Task "CL"
          Forcing recompile of all source files due to missing PDB "Debug\vc141.pdb".
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=2388
+           VS_UNICODE_OUTPUT=1308
          E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
          Tracking command:
-         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLECOMPILER.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLELEX.FLEX.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLEYACC.TAB.CPP" /b MSBuildConsole_CancelEvent0d6eb6fe83654db88f0b61f4983451b3  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
+         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLECOMPILER.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLELEX.FLEX.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLEYACC.TAB.CPP" /b MSBuildConsole_CancelEvente9833106e79a43d481b6056a3ea6c01b  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
          TurtleCompiler.cpp
          TurtleLex.flex.cpp
          TurtleYacc.tab.cpp
@@ -533,12 +533,12 @@
        Using "Link" task from assembly "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Task "Link"
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=2768
+           VS_UNICODE_OUTPUT=1348
          E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
          Debug\TurtleLex.flex.obj
          Debug\TurtleYacc.tab.obj
          Tracking command:
-         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLECOMPILER.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLELEX.FLEX.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLEYACC.TAB.OBJ" /b MSBuildConsole_CancelEvent1dbdc3b14cb741049efe2ca14cd657c2  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
+         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLECOMPILER.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLELEX.FLEX.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLEYACC.TAB.OBJ" /b MSBuildConsole_CancelEvent3fbf4693dae3431883b87bce5141a76d  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
          Debug\TurtleLex.flex.obj
          Debug\TurtleYacc.tab.obj
        Done executing task "Link".
@@ -686,4 +686,4 @@ Build succeeded.
     1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.59
+Time Elapsed 00:00:03.21
