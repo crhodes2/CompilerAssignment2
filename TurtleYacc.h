@@ -48,11 +48,21 @@ extern int yydebug;
    enum yytokentype {
      HOME = 258,
      FD = 259,
-     NUMBER = 260,
-     IF = 261,
-     IFELSE = 262,
-     REPEAT = 263,
-     INT = 264
+     BK = 260,
+     LT = 261,
+     RT = 262,
+     PD = 263,
+     PU = 264,
+     SETC = 265,
+     NUMBER = 266,
+     COLORNAME = 267,
+     IF = 268,
+     IFELSE = 269,
+     XCOR = 270,
+     YCOR = 271,
+     COLOR = 272,
+     REPEAT = 273,
+     INT = 274
    };
 #endif
 

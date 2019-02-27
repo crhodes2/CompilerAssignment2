@@ -1,4 +1,4 @@
-﻿Build started 2/23/2019 4:16:14 PM.
+﻿Build started 2/26/2019 9:36:08 PM.
      1>Project "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Assign2.vcxproj" on node 2 (Rebuild target(s)).
      1>Building with tools version "15.0".
        Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
@@ -22,10 +22,10 @@
      1>Target "SetTelemetryEnvironmentVariables" in file "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Assign2.vcxproj" (target "Rebuild" depends on it):
        Using "SetEnv" task from assembly "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={66713EC6-EF78-4A73-B27F-24949ECBF52C}
+         VSTEL_SolutionSessionID={2DC63D72-9A7B-441D-B903-3D4AB40FF1B0}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=21713125
+         VSTEL_CurrentSolutionBuildID=12848109
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={1503B17A-0109-486E-BBC1-C5CDF44D53A6}
@@ -291,12 +291,13 @@
        Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.Core".
        Using "Bison" task from the task factory "XamlTaskFactory".
        Task "Bison"
-         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp57780b8e113b4384a7b3a610d34ea711.cmd"
+         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp4b4394256f7b4e218228078975088e6f.cmd"
          
          start /B /WAIT /D "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\" win_bison.exe --output="TurtleYacc.tab.cpp" --defines="TurtleYacc.h"  "TurtleYacc.y"
          exit /b %errorlevel%
          
          C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2>start /B /WAIT /D "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\" win_bison.exe --output="TurtleYacc.tab.cpp" --defines="TurtleYacc.h"  "TurtleYacc.y" 
+         TurtleYacc.y:40.8-13: warning: symbol IFELSE redeclared
          
          C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2>exit /b 0 
        Done executing task "Bison".
@@ -317,7 +318,7 @@
        Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.Core".
        Using "Flex" task from the task factory "XamlTaskFactory".
        Task "Flex"
-         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp410923e61fcb4349bb7f0d4606b71969.cmd"
+         cmd.exe /D /C "C:\Users\miiwo\AppData\Local\Temp\tmp73e906e4b47d4ba486492f4bba6bbad2.cmd"
          
          start /B /WAIT /D "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\" win_flex.exe --outfile="TurtleLex.flex.cpp" --wincompat  "TurtleLex.l"
          exit /b %errorlevel%
@@ -408,14 +409,14 @@
        Task "CL"
          Forcing recompile of all source files due to missing PDB "Debug\vc141.pdb".
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1308
+           VS_UNICODE_OUTPUT=1164
          E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
          Tracking command:
-         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLECOMPILER.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLELEX.FLEX.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLEYACC.TAB.CPP" /b MSBuildConsole_CancelEvente9833106e79a43d481b6056a3ea6c01b  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
+         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLECOMPILER.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLELEX.FLEX.CPP|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\TURTLEYACC.TAB.CPP" /b MSBuildConsole_CancelEventf7e15732cd404a6ea558bc2a928261a8  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\TurtleCompiler.cpp ..\TurtleLex.flex.cpp ..\TurtleYacc.tab.cpp
          TurtleCompiler.cpp
          TurtleLex.flex.cpp
          TurtleYacc.tab.cpp
-     1>c:\users\miiwo\source\repos\cst320 - compiler methods projects\cst320_assign2_christianrhodes\assign2\assign2\turtleyacc.tab.cpp(1085): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>c:\users\miiwo\source\repos\cst320 - compiler methods projects\cst320_assign2_christianrhodes\assign2\assign2\turtleyacc.tab.cpp(1121): warning C4065: switch statement contains 'default' but no 'case' labels
          Generating Code...
        Done executing task "CL".
      1>Done building target "ClCompile" in project "Assign2.vcxproj".
@@ -533,12 +534,12 @@
        Using "Link" task from assembly "E:\DRIVE\Program Files\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
        Task "Link"
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1348
+           VS_UNICODE_OUTPUT=1332
          E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
          Debug\TurtleLex.flex.obj
          Debug\TurtleYacc.tab.obj
          Tracking command:
-         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLECOMPILER.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLELEX.FLEX.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLEYACC.TAB.OBJ" /b MSBuildConsole_CancelEvent3fbf4693dae3431883b87bce5141a76d  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
+         E:\DRIVE\Program Files\Microsoft Visual Studio\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Debug\Assign2.tlog" /r "C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLECOMPILER.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLELEX.FLEX.OBJ|C:\USERS\MIIWO\SOURCE\REPOS\CST320 - COMPILER METHODS PROJECTS\CST320_ASSIGN2_CHRISTIANRHODES\ASSIGN2\ASSIGN2\DEBUG\TURTLEYACC.TAB.OBJ" /b MSBuildConsole_CancelEvent7ee41e2d7ad84b4e9c3950ca530373fb  /c "E:\DRIVE\Program Files\Microsoft Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Debug\Assign2.lib" /MACHINE:X86 Debug\TurtleCompiler.obj
          Debug\TurtleLex.flex.obj
          Debug\TurtleYacc.tab.obj
        Done executing task "Link".
@@ -681,9 +682,9 @@ Build succeeded.
 
        "C:\Users\miiwo\source\repos\CST320 - Compiler Methods Projects\CST320_Assign2_ChristianRhodes\Assign2\Assign2\Assign2.vcxproj" (Rebuild target) (1) ->
        (ClCompile target) -> 
-         c:\users\miiwo\source\repos\cst320 - compiler methods projects\cst320_assign2_christianrhodes\assign2\assign2\turtleyacc.tab.cpp(1085): warning C4065: switch statement contains 'default' but no 'case' labels
+         c:\users\miiwo\source\repos\cst320 - compiler methods projects\cst320_assign2_christianrhodes\assign2\assign2\turtleyacc.tab.cpp(1121): warning C4065: switch statement contains 'default' but no 'case' labels
 
     1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.21
+Time Elapsed 00:00:02.12

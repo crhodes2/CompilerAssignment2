@@ -2,7 +2,7 @@
 %{
 
 /* Turtle Compiler lex file
-   by Pete Myers
+   by Pete Myers and Christian Rhodes
    OIT Portland Fall 2008
    Flex C++ version Jan 2017
 
@@ -20,6 +20,11 @@
 %%
 
 "-"?[0-9]+	{ return NUMBER; }
+black		{ return COLORNAME; }
+white		{ return COLORNAME; }
+orange		{ return COLORNAME; }
+red			{ return COLORNAME; }
+yellow		{ return COLORNAME; }
 
 "+"			{ return yytext[0]; }
 "-"			{ return yytext[0]; }
@@ -39,11 +44,19 @@ if			{ return IF; }
 ifelse		{ return IFELSE; }
 repeat		{ return REPEAT; }
 int			{ return INT; }
+
 home		{ return HOME; }
-
-
 fd			{ return FD; }
+bk			{ return BK; }
+rt			{ return RT; }
+lt			{ return LT; }
+pd			{ return PD; }
+pu			{ return PU; }
+setc		{ return SETC; }
 
+color		{ return COLOR; }
+xcor		{ return XCOR; }
+ycor		{ return YCOR; }
 
 .			{ }
 \n			{ yylineno++; }
